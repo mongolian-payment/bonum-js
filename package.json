@@ -1,7 +1,7 @@
 {
   "name": "@mongolian-payment/bonum",
-  "version": "1.0.0",
-  "description": "Bonum PSP payment SDK for Node.js - card payment processing, Google Pay, Apple Pay",
+  "version": "1.1.0",
+  "description": "Bonum payment SDK for Node.js - Gateway Merchant API (invoices, tokenization, subscriptions, QR) plus PSP Apple Pay / Google Pay",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -29,8 +29,12 @@
     "mongolia",
     "payment",
     "bonum",
+    "gateway",
     "psp",
     "card",
+    "tokenization",
+    "subscription",
+    "qpay",
     "google-pay",
     "apple-pay",
     "sdk"
