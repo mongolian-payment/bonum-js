@@ -1,6 +1,14 @@
 # @mongolian-payment/bonum
 
-Bonum payment SDK for Node.js. Two clients in one package:
+Bonum payment SDK for Node.js — full Gateway Merchant API plus PSP Apple Pay / Google Pay.
+
+[![npm version](https://img.shields.io/npm/v/@mongolian-payment/bonum.svg)](https://www.npmjs.com/package/@mongolian-payment/bonum)
+[![license](https://img.shields.io/npm/l/@mongolian-payment/bonum.svg)](./LICENSE)
+
+> Part of the **[mongolian-payment](https://github.com/mongolian-payment)** SDK suite.
+> Also available for Python: **[mongolian-payment-bonum](https://pypi.org/project/mongolian-payment-bonum/)** ([source](https://github.com/mongolian-payment/bonum-py)).
+
+Two clients in one package:
 
 - **`BonumGatewayClient`** — the full Bonum Gateway Merchant API: Bearer-token
   auth (with auto-refresh), web-payment invoices, card tokenization,
